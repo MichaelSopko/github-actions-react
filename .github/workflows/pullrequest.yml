@@ -1,5 +1,5 @@
 name: Print Context
-on: workflow_run
+on: workflow_dispatch
 jobs:
   print_context:
     runs-on: ubuntu-latest
