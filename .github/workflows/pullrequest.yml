@@ -1,0 +1,9 @@
+name: Print Context
+on: workflow_run
+jobs:
+  print_context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Context
+        run: |
+          echo "${{ github }}"
