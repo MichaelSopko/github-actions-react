@@ -30,7 +30,6 @@ jobs:
           run: npm run lint
   build:
     runs-on: ubuntu-latest
-    needs: [test_app, lint]
     steps:
       - name: Checkout / Branch Head
         uses: actions/checkout@v4
